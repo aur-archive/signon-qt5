@@ -1,0 +1,18 @@
+pkgbase = signon-qt5
+	pkgdesc = Framework to provide credential storage and authentication service
+	pkgver = 8.57
+	pkgrel = 2
+	url = http://code.google.com/p/accounts-sso/
+	arch = i686
+	arch = x86_64
+	license = LGPL
+	makedepends = doxygen
+	makedepends = graphviz
+	depends = qt5-base
+	depends = signon
+	options = !emptydirs
+	source = http://signond.accounts-sso.googlecode.com/archive/8.57.tar.gz
+	sha1sums = SKIP
+
+pkgname = signon-qt5
+
